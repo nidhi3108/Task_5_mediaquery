@@ -36,6 +36,11 @@
     }
     .flex-container{
         display: block;
+        flex-direction: column;
+        /* width: 100%; */
+    }
+    .flex-container .flex-item{
+        width: 100%;
     }
     
 }
